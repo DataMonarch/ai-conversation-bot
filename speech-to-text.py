@@ -3,6 +3,7 @@
 # print the recognized speech
 # if there is an error, print the error message
 import speech_recognition as sr
+
 r = sr.Recognizer()
 with sr.Microphone() as source:
     print("Say something!")
